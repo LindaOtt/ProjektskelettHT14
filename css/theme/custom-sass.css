@@ -1,0 +1,40 @@
+.first-letter {
+    color: #C93482;
+}
+
+.pink-emphasis,
+.reveal h5.pink-emphasis {
+    color: #B0276F;
+}
+
+#sass-author {
+    margin-top: 50px;
+    float: right;
+}
+
+.dark-background {
+    color: #fff;
+}
+
+.dark-background h2 {
+    color: #FF8AD1;
+}
+
+.dark-background li {
+    color:  #B0276F;
+}
+
+.dark-background a:link,
+.dark-background a:visited
+{
+    color:  #C93482;
+}
+
+.dark-background a:hover,
+.reveal a:hover:not(.image)  {
+    color: #FF5CB1;
+}
+
+.white-default-text {
+    color: #fff;
+}
