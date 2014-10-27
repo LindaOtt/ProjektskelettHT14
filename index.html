@@ -118,8 +118,8 @@
 											$font-stack: Verdana, sans-serif;<br>
 											$base-color: red;<br>
 											body {<br>
-											&nbsp;font: $font-stack<br>
-											&nbsp;color: $base-color<br>
+											&nbsp;font: $font-stack;<br>
+											&nbsp;color: $base-color;<br>
 											}
 										</p>
 									</code>
@@ -196,7 +196,7 @@
 							&nbsp;-webkit-border-radius: $radius;<br>
 							&nbsp;-moz-border-radius: $radius;<br>
 							&nbsp;-ms-border-radius: $radius;<br>
-							&nbsp;border-radius:<br>
+							&nbsp;border-radius: 10px;<br>
 							}<br>
 							.box { @include border-radius(10px); }
 						</code>
@@ -222,12 +222,11 @@
 						<p>I Sass kan man använda operatorerna +, -, *, / och %</p>
 						<p>Det kan exempelvis komma till nytta när man kodar responsiva layouter och vill räkna ut vad ett elements vidd är i procent av dess föräldraelement.</p>
 						</p>
+						<h5 class="pink-emphasis">Exempel (SCSS):</h5>
 						<code>
-							Ex (SCSS):<br>
 							.container {<br>
 							&nbsp;width: 100%;<br>
 							}<br>
-							&nbsp;<br>
 							article {<br>
 							&nbsp;width: 600px / 960px * 100%;<br>
 							}
@@ -235,7 +234,7 @@
 					</section>
 					<section>
 						<h2>Operatorer</h2>
-						<h5>Resultat (genererad CSS):</h5>
+						<h5 class="pink-emphasis">Resultat (genererad CSS):</h5>
 							<code>
 								.container {<br>
 								&nbsp;width: 100%;<br>
